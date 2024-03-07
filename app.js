@@ -15,8 +15,6 @@ app.get('/', (req, res) => {
   res.json({name: 'tom'});
 });
 
-
-
 // 设置服务器监听3000端口
 app.listen(8083, () => {
   console.log('Server is running on http://localhost:8083');

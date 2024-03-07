@@ -12,7 +12,7 @@ app.use(cors());
 
 // 定义一个路由，当访问根路径('/')时返回'Hello World'
 app.get('/', (req, res) => {
-  res.json({name: 'tom111'});
+  res.json({name: 'tom222'});
 });
 
 // 设置服务器监听3000端口
